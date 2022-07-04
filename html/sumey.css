@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(106, 121, 126);
+    }
+
+    h1 {
+    color: rgb(119, 38, 38);
+    text-align: center;
+    }
+
+    p {
+    font-family: verdana;
+    font-size: 20px;
+    }
+
+    
+/* 
+css in söz dizimi şöyledir
+h1 { color : blue ; font-size : 12px ;}
+*/
+
+
+    p {
+    color: red;
+    text-align: left;
+    } 

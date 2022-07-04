@@ -1,0 +1,74 @@
+<!-- 
+
+https://htmlreference.io/ sitesinde hangi elementlerin blok hangilerinin inline olduğunu görürüz
+sitenin içeriğinde etiketler ile neler yapılabileceği de var
+blok bulunduğu alanın tamamını kaplar
+inline ise kendi yazısının bulunduğu yeri kaplar
+http://www.99lime.com/_bak/topics/you-only-need-10-tags/
+
+1- inline ve blok olması bana ne sağlar?
+    cvp: ne kadar yer kapladıklarını bildiğim için bu ne kadar alan kaplar bu yazı kadar alan kaplar diyebileceğim..
+
+ -->
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEKME</title>
+</head>
+<body>
+
+   <h1>DİV</h1>
+
+   <div>
+      <h2>blok oluşturuyor ve başka hiçbir özellik sağlamıyor.</h2>
+         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+         </ul>
+         
+         <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+         </ol>
+   </div>
+</body>
+</html>
+
+
+<!-- 
+div tam bir blok oluştururken, yeni bir satır yapıyor mesela.. span hiçbir işe yaramamış gözükürken hayali bir kutu oluyor ve buna kurallar getirebiliyoruz, inline
+hiçbir etki etmiyor yazıya ya da başka bişeye ama css stillerini oluştururken kullancaksın 
+şeffaf bir kutudur span
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEKME</title>
+</head>
+<body>
+
+   <h1>DİV</h1>
+
+   <div>
+      <h2>blok oluşturuyor ve başka hiçbir özellik sağlamıyor.</h2>
+         <p>
+            Lorem ipsum <strong>dolor sit</strong> amet 
+            <span style="color: red">consectetur adipisicing.</span>
+         </p>
+   </div>
+</body>
+</html>
+
+
+<!-- bir yazı hem em hem strong olabilir, hem italik hem kalın... -->
+
